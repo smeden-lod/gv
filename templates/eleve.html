@@ -1,0 +1,35 @@
+<h2>Elève :</h2>
+<div class="row">
+    <div class="col-2">Classe :</div>
+    <div class="col">
+        <select class="form-select" name="classe" id="sel_classe" aria-label="Default select example">
+        <option selected>--choisir classe--</option>
+        {% for c in classes %}
+        <option value="{{c}}">{{c}}</option>
+        {% endfor %}
+        </select>
+    </div>
+</div>
+<div class="row mt-3">
+    <div class="col-2">Option Arts ?</div>
+    <div class="col">
+    {% for o in option_art%}
+    <div class="form-check form-check-inline">    
+    <input type="radio"  name="option_art" id="{{o}}" autocomplete="off" value="{{o}}">
+    <label class="btn" for="{{o}}">{{o}}</label>
+    </div> 
+    {% endfor %}
+    </div>
+</div>
+<div class="row mt-3">
+    <div class="col-2">Genre estimé:</div>
+    <div class="col">
+    {% for g in genre%}
+    <div class="form-check form-check-inline">
+    <input type="radio" name="genre" id="{{g}}" value="{{g}}">
+    <label class="btn" for="{{g}}">{{g}}</label>
+    </div>
+    {% endfor %}
+    </div>
+    </div>
+</div>

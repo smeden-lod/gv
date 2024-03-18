@@ -1,0 +1,84 @@
+{
+    "eleve":{
+        "classe": [
+            "1AGORA",
+            "1ASSP",
+            "1CAPEPC",
+            "1CVPM",
+            "1E",
+            "1MA",
+            "1MCVOPTA",
+            "1STD2A",
+            "1STI2D",
+            "1STMG",
+            "2AMACVP",
+            "2ASSP",
+            "2CAPEPC",
+            "2GATL",
+            "2MRC",
+            "2MRC2",
+            "2MTNE",
+            "2NDE1",
+            "2NDE2",
+            "2NDE3",
+            "2NDE4",
+            "2NDE5",
+            "3PM1",
+            "DNMADE1",
+            "DNMADE2",
+            "DNMADE3",
+            "PG1",
+            "PG2",
+            "PG3",
+            "TAGORA",
+            "TASSP",
+            "TCVPM",
+            "TG1",
+            "TG2",
+            "TMA",
+            "TMCA",
+            "TMELEC",
+            "TSTD2A",
+            "TSTI2D",
+            "TSTMG"
+        ],
+        "option_art": ["oui", "non"],
+        "genre": ["femme", "homme", "non binaire"]
+        },
+    "accessoire":{
+        "reg":{
+            "boucle_or": [
+                "pendantes",
+                "pas pendantes",
+                "piercing"
+            ],
+            "autre_accessoire": [
+                "bracelet",
+                "ceinture",
+                "écharpe",
+                "collier fin",
+                "montre",
+                "bonnet",
+                "grosse chaîne",
+                "lunettes de soleil",
+                "casquette",
+                "rien"
+            ]
+        },
+        "maquillage": ["souvent", "parfois", "pour rire", "jamais"]
+    },
+    "vetement": {
+        "combien_vet": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "plus de 10"],
+        "type": ["sweat-shirt", "body", "short", "veste sport", "croptop", "jean", "pull-over", "robe", "jogging", "t-shirt", "tunique", "jupe"],
+        "combien_coul": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "plus de 10"],
+        "crit_choix_vet": ["confort", "style", "activités", "humeur", "discrétion", "autre"]
+    },
+    "chaussure": {
+        "type": [
+            "sneakers", "toile", "talons", "sport", "ouvertes", "bottes"
+            ]
+    },
+    "style_vest":{
+        "type": ["Bohême", "Grunge", "Chic", "Gothique", "Y2K", "Sport", "Street", "Autre", "Casual"]
+    }
+}

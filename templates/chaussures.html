@@ -1,0 +1,13 @@
+<h2>Quel type de chaussures portez-vous souvent :</h2>
+
+<div class="row">
+<div class="col-2"></div>
+<div class="col">
+{% for c in type_chaussure %}
+<div class="form-check form-check-inline">    
+    <input type="checkbox" name="chaussure" id="{{c}}" value="{{c}}" autocomplete="off">
+<label  for="option{{c}}">{{c}}</label>
+</div>
+{% endfor %}
+</div>
+</div>

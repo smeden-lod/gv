@@ -1,0 +1,39 @@
+<h2>Accessoires :</h2>
+<div class="d-grid gap-3">
+<h3>Que portez vous régulièrement :</h3>
+<div class="row">
+<div class="col-3">Boucles d'oreille</div>
+<div class="col">
+    {% for c in boucle_oreille %}
+    <div class="form-check form-check-inline">
+    <input type="radio" name="boucle_oreille" id="{{c}}" autocomplete="off" value="{{c}}">
+    <label  for="option{{c}}">{{c}}</label>
+  </div>
+    {% endfor %}
+</div>
+</div>
+
+<div class="row">
+  <div class="col-3">Accessoire :</div>
+  <div class="col">   
+      {% for c in accessoire %}
+      <div class="form-check form-check-inline">
+      <input type="checkbox" name="accessoire" id="{{c}}" autocomplete="off" value="{{c}}">
+      <label  for="option{{c}}">{{c}}</label>
+    </div>
+      {% endfor %}
+  </div>
+  </div>
+
+  <div class="row">
+    <div class="col-3">Vous maquillez-vous...</div>
+    <div class="col">
+        {% for c in maquillage %}
+        <div class="form-check form-check-inline">
+        <input type="radio"  name="maquillage" id="{{c}}" autocomplete="off" value="{{c}}">
+        <label  for="option{{c}}">{{c}}</label>
+        </div>
+        {% endfor %}
+    </div>
+    </div>
+  </div>
